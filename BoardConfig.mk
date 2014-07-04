@@ -26,7 +26,8 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/togari/include
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/togari/bluetooth
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_rhine_togari_row_defconfig
+#TARGET_KERNEL_CONFIG := cm_rhine_togari_row_defconfig
+TARGET_PREBUILT_KERNEL := device/sony/togari/prebuilt/boguskernel
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
